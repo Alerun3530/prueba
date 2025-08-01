@@ -22,5 +22,5 @@ df['Longitud'] = df['Coordenadas'].apply(lambda x: x.longitude if x != None else
 # %%
 df
 # %%
-nom.geocode('Carrera 7H #42-92, Barranquilla, Colombia')
+nom.geocode('Carrera 7H #42-104, Barranquilla, Colombia')
 # %%
