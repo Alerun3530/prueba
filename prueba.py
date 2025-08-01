@@ -42,8 +42,8 @@ audio_file = sr.AudioFile(r"C:\Users\aleco\Downloads\WhatsApp-Audio-2025-07-22-a
 with audio_file as source:
     audio = r.record(source)  
     try:
-        text = r.recognize_google(audio, language="es-ES")  # Usar Google STT (requiere internet)
-        print("Texto detectado:", text)
+        texto = r.recognize_google(audio, language="es-ES")  # Usar Google STT (requiere internet)
+        print("Texto detectado:", texto)
     except Exception as e:
         print("Error al procesar el audio:", e)
 
@@ -62,4 +62,4 @@ def analizartexto(text):
     return response.choices[0].message.content
 
 
-print("Análisis del texto:", analizartexto(text))
+print("Análisis del texto:", analizartexto(texto))
