@@ -20,7 +20,7 @@ Salida:
   "moneda": "USD",
   "categoría": "Transporte",
   "acción": "gasto",
-  "descripción": "Uber"
+  "descripción": "Yango"
 }
 
 Entrada: "Recibí 200 mil pesos por una venta en MercadoLibre"
